@@ -54,7 +54,7 @@ const firebaseConfig = {
         process.env.VUE_APP_FIREBASE_DATABASE_URL ||
         'https://' +
             process.env.VUE_APP_FIREBASE_PROJECT_ID +
-            '.firebaseio.com',
+            '-default-rtdb.europe-west1.firebasedatabase.app',
     projectId: process.env.VUE_APP_FIREBASE_PROJECT_ID,
     storageBucket:
         process.env.VUE_APP_STORAGE_BUCKET ||
